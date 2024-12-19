@@ -62,8 +62,9 @@ section {
 }
 
 .card img {
-    width: 100px;
+    width: 100px; /* Adjust to desired size */
     height: 100px;
+    object-fit: contain;
     margin-bottom: 10px;
 }
 
