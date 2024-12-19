@@ -68,7 +68,15 @@ section {
 .card:hover {
     transform: scale(1.05);
 }
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 /* Footer */
 footer {
     background-color: #004080;
