@@ -18,7 +18,11 @@ header h1 {
     font-size: 2em;
     margin-bottom: 10px;
 }
-
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
 /* Solutions Section */
 .solutions {
     display: flex;
