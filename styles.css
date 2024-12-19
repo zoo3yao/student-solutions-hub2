@@ -68,6 +68,7 @@ section {
 .card:hover {
     transform: scale(1.05);
 }
+
 /* Footer */
 footer {
     background-color: #004080;
